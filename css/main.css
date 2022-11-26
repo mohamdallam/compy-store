@@ -106,7 +106,7 @@ body {
 
 /* --------------- Products ---------------- */
 .products {
-  padding: 4rem 0;
+  padding: rem 0;
 }
 
 .section-title h2 {
@@ -121,6 +121,7 @@ body {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-column-gap: 1.5rem;
@@ -196,7 +197,7 @@ body {
   transition: var(--mainTransition);
   background: rgb(240, 157, 81, 0.5);
   z-index: 2;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .cart {
@@ -210,7 +211,7 @@ body {
   background: rgb(231, 226, 221);
   padding: 1.5rem;
   transition: var(--mainTransition);
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
 }
 
 .showCart {
@@ -280,6 +281,7 @@ body {
   letter-spacing: var(--mainSpacing);
   text-align: center;
 }
+
 .cart-footer h3 {
   text-transform: capitalize;
   margin-bottom: 1rem;
